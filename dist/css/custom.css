@@ -1,0 +1,78 @@
+#logo{
+     height: 130%;
+	 margin-top: -3px;
+	 margin-bottom: 0px;
+	 margin-left: 0px;
+	 margin-right: 0px;
+}
+.navbar-brand {
+float: left;
+height: 50px;
+padding: 15px 15px;
+font-size: 20px;
+line-height: 20px;
+}
+
+/*
+a{
+  color: #00CCFF;
+}
+*/
+.navbar-inverse {
+  background-color: #9954bb;
+  border-color: #7643a8;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    background-image: url(Bkg-pic.jpg); background-repeat: repeat;
+    color: black;
+}
+ 
+#container {
+    width: 960px;
+    margin: 100px auto;
+}
+
+/*.stickyNote {
+    margin: auto;
+    width: 300px;
+    background: yellow;
+}*/
+
+.stickyNote {
+    margin: auto;
+    width: 360px;   
+    background: yellow; /* Fallback */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEB00), to(#C5C500));
+    background: -moz-linear-gradient(100% 100% 90deg, #C5C500, #EBEB00);
+    padding: 20px 20px 20px 20px;
+        -webkit-box-shadow: 0px 10px 30px #000;
+        -moz-box-shadow: 0px 10px 30px #000;
+}
+
+@font-face {
+    font-family: 'GoodDogRegular';
+    src: url('GoodDog-webfont.eot');
+    src: local('‚??'), url('GoodDog-webfont.woff') format('woff'), url('GoodDog-webfont.ttf')
+    format('truetype'), url('GoodDog-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.stickyNote h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+ 
+.stickyNote p {
+    font-family: GoodDogRegular, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 10px 0 10px 0;
+    width: 280px;
+}
